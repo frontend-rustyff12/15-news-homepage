@@ -7,7 +7,7 @@ export default function News() {
   const pClass = "text-cust-Off-white font-extralight";
 
   return (
-    <section className="flex flex-col gap-8 bg-cust-Very-dark-blue px-5 py-8 my-10">
+    <section className="flex flex-col gap-8 bg-cust-Very-dark-blue px-5 py-8 my-10 md:my-4">
       <h2 className="text-cust-Soft-orange text-3xl font-bold">New</h2>
 
       <div className={divClass}>
