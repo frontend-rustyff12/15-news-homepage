@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-5 my-4">
       <div
         className="bg-[url('/image-web-3-mobile.jpg')] lg:bg-[url('/image-web-3-desktop.jpg')] w-full h-80 bg-cover bg-center"
         role="img"
@@ -16,7 +16,7 @@ export default function Hero() {
         fulfilling its promise?
       </p>
 
-      <button className="bg-cust-Soft-red text-cust-Very-dark-blue font-bold w-48 p-3 uppercase tracking-[0.2em] hover:bg-cust-Very-dark-blue hover:text-cust-Off-white transition duration-300 ease-in cursor-pointer">
+      <button className="bg-cust-Soft-red text-cust-Very-dark-blue font-bold w-48 p-4 uppercase tracking-[0.2em] hover:bg-cust-Very-dark-blue hover:text-cust-Off-white transition duration-300 ease-in cursor-pointer">
         Read more
       </button>
     </section>

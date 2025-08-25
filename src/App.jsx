@@ -4,7 +4,7 @@ import News from "./components/News";
 import Cards from "./components/Cards";
 function App() {
   return (
-    <main className="flex flex-col gap-8 px-5 py-8 font-inter bg-cust-Off-white">
+    <main className="flex flex-col gap-4 px-5 py-8 font-inter bg-cust-Off-white">
       <Header />
       <Hero />
       <News />
